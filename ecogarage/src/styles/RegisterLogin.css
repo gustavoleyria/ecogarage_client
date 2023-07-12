@@ -1,0 +1,31 @@
+.register-login-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los formularios a vertical en pantallas pequeñas */
+  }
+  
+  @media screen and (min-width: 900px) {
+    .register-login-container {
+      flex-direction: row; /* Vuelve a la dirección horizontal en pantallas más grandes */
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .register-login-container {
+      gap: 20px; /* Agrega un margen de 20px entre los formularios */
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .register-login-container {
+      align-items: center; /* Centra los formularios verticalmente en pantallas más pequeñas */
+    }
+  
+    .form-register-container,
+    .form-login-container {
+      max-width: 80%; /* Ajusta el ancho de los formularios para que se vean completos */
+    }
+  
+  }
+  

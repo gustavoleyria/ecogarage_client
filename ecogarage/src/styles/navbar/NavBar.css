@@ -1,0 +1,352 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: rainbowBackground 10s infinite linear;
+  background-color: #ffcccc;
+  padding: 0px;
+  height: 45px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+h1 {
+  color: white;
+  animation: rainbowText 10s infinite linear;
+}
+
+@keyframes rainbowBackground {
+  0% {
+    background: linear-gradient(to right, #ffe6e6, #e44545);
+  }
+  14% {
+    background: linear-gradient(to right, #ffcccc, #df5e08);
+  }
+  28% {
+    background: linear-gradient(to right, #ffe0cc, #09eebc);
+  }
+  42% {
+    background: linear-gradient(to right, #ffe6cc, #6c41e0);
+  }
+  57% {
+    background: linear-gradient(to right, #fff2cc, #afaf04);
+  }
+  71% {
+    background: linear-gradient(to right, #ffffcc, #f311c2);
+  }
+  85% {
+    background: linear-gradient(to right, #e6ffcc, #dd2b2b);
+  }
+  100% {
+    background: linear-gradient(to right, #d9ffcc, #b1ee0b);
+  }
+}
+
+@keyframes rainbowText {
+  0% {
+    color: #f01111;
+  }
+  14% {
+    color: #ad4a08;
+  }
+  28% {
+    color: #08b18c;
+  }
+  42% {
+    color: #3f08d4;
+  }
+  57% {
+    color: #f5f508;
+  }
+  71% {
+    color: #f311c2;
+  }
+  85% {
+    color: #08b2e6;
+  }
+  100% {
+    color: #e7e9e2;
+  }
+}
+
+.navbar-logo {
+  margin-right: 20px;
+}
+
+.navbar-logo img {
+  max-width: 40px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  background-color: #ccffcc;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%; /* Añadido para ocupar todo el ancho *//*
+  z-index: 1; /* Añadido para asegurar que esté por encima del resto *//*
+}
+
+.navbar-links.show {
+  display: flex;
+  position:fixed; /* Añadido para ajustar la posición *//*
+  margin-top: 70px;
+  margin-left: 2%;
+  width: 130px;
+  animation: rainbowBackgroundHamb 10s infinite linear;
+}
+
+@keyframes rainbowBackgroundHamb {
+  0% {
+    background: linear-gradient(to right, #ffe6e6, #e44545);
+  }
+  14% {
+    background: linear-gradient(to right, #ffcccc, #df5e08);
+  }
+  28% {
+    background: linear-gradient(to right, #ffe0cc, #09eebc);
+  }
+  42% {
+    background: linear-gradient(to right, #ffe6cc, #6c41e0);
+  }
+  57% {
+    background: linear-gradient(to right, #fff2cc, #afaf04);
+  }
+  71% {
+    background: linear-gradient(to right, #ffffcc, #f311c2);
+  }
+  85% {
+    background: linear-gradient(to right, #e6ffcc, #dd2b2b);
+  }
+  100% {
+    background: linear-gradient(to right, #d9ffcc, #b1ee0b);
+  }
+}
+
+.navbar-links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.navbar-links li a {
+  text-decoration:underline;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #eb1b1b;
+  margin-bottom: 5px;
+}
+
+.line-open {
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.line-open:nth-child(2) {
+  opacity: 0;
+  transform: rotate(0);
+}
+
+.line-open:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+} */
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: rainbowBackground 10s infinite linear;
+  background-color: #ffcccc;
+  padding: 0px;
+  height: 45px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+h1 {
+  color: white;
+  animation: rainbowText 10s infinite linear;
+}
+
+@keyframes rainbowBackground {
+  0% {
+    background: linear-gradient(to right, #ffe6e6, #e44545);
+  }
+  14% {
+    background: linear-gradient(to right, #ffcccc, #df5e08);
+  }
+  28% {
+    background: linear-gradient(to right, #ffe0cc, #09eebc);
+  }
+  42% {
+    background: linear-gradient(to right, #ffe6cc, #6c41e0);
+  }
+  57% {
+    background: linear-gradient(to right, #fff2cc, #afaf04);
+  }
+  71% {
+    background: linear-gradient(to right, #ffffcc, #f311c2);
+  }
+  85% {
+    background: linear-gradient(to right, #e6ffcc, #dd2b2b);
+  }
+  100% {
+    background: linear-gradient(to right, #d9ffcc, #b1ee0b);
+  }
+}
+
+@keyframes rainbowText {
+  0% {
+    color: #f01111;
+  }
+  14% {
+    color: #ad4a08;
+  }
+  28% {
+    color: #08b18c;
+  }
+  42% {
+    color: #3f08d4;
+  }
+  57% {
+    color: #f5f508;
+  }
+  71% {
+    color: #f311c2;
+  }
+  85% {
+    color: #08b2e6;
+  }
+  100% {
+    color: #e7e9e2;
+  }
+}
+
+.navbar-logo {
+  margin-right: 20px;
+}
+
+.navbar-logo img {
+  max-width: 40px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  background-color: #ccffcc;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-links.show {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 2%;
+  width: 130px;
+  animation: rainbowBackgroundHamb 10s infinite linear;
+}
+
+@keyframes rainbowBackgroundHamb {
+  0% {
+    background: linear-gradient(to right, #ffe6e6, #e44545);
+  }
+  14% {
+    background: linear-gradient(to right, #ffcccc, #df5e08);
+  }
+  28% {
+    background: linear-gradient(to right, #ffe0cc, #09eebc);
+  }
+  42% {
+    background: linear-gradient(to right, #ffe6cc, #6c41e0);
+  }
+  57% {
+    background: linear-gradient(to right, #fff2cc, #afaf04);
+  }
+  71% {
+    background: linear-gradient(to right, #ffffcc, #f311c2);
+  }
+  85% {
+    background: linear-gradient(to right, #e6ffcc, #dd2b2b);
+  }
+  100% {
+    background: linear-gradient(to right, #d9ffcc, #b1ee0b);
+  }
+}
+
+.navbar-links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.navbar-links li a {
+  text-decoration: underline;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #eb1b1b;
+  margin-bottom: 5px;
+}
+
+.line-open {
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.line-open:nth-child(2) {
+  opacity: 0;
+  transform: rotate(0);
+}
+
+.line-open:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+

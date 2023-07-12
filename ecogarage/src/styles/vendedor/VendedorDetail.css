@@ -1,0 +1,158 @@
+  .vendedor-detail-link{
+    text-decoration: none;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .vendedor-detail-link:hover{
+    color: white;
+  }
+  
+
+  .user-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .detail-image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .detail-email,
+  .detail-phone {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(221, 215, 215, 0.5);
+  }
+  
+  .vendedor-products-detail {
+    margin-top: 20px;
+  }
+  
+  .vendedor-products-detail h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .vendedor-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+
+  }
+  .vendedor-product-card{
+    background-color: rgba(245, 242, 242, 0.5);
+    padding: 10px;
+    font-size: 25px;
+    width: 25%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .vendedor-detaillink{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .vendedor-product-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .comments-detail{
+    text-align: left;
+  }
+  .comments-detail h2{
+    background-color: rgba(245, 242, 242, 0.5);
+    margin: 6px;
+  }
+  .detail-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .comments-detail button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #3cb194;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comments-detail button:hover {
+    background-color: #b3dab5;
+  }
+  .comment{
+    background-color: rgba(245, 242, 242, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .comment p{
+    text-align: left;
+  }
+
+  @media (max-width: 900px) {
+    .vendedor-detaillink{
+        font-size: 18px;
+      }
+    .vendedor-product-card{
+    font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .vendedor-product-card {
+      width: 30%;
+      margin: 15px;
+    }
+    .vendedor-detaillink{
+        font-size: 20px;
+      }
+    .vendedor-product-card{
+    font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .detail-email,
+    .detail-phone {
+      font-size: 16px;
+    }
+  
+    .vendedor-product-card {
+        width: 80%;
+        margin: 10px;
+      }
+    
+    .comment{
+    font-size: 15px;
+    }
+    .comments-detail button {
+        font-size: 15px;
+        height: 20px;
+        padding-top: 2px;
+      }
+    .comments-detail h2{
+        font-size: 15px;
+    }
+  }
+  

@@ -1,0 +1,59 @@
+.generalPanel-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .generalPanel-button {
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .generalPanel-button:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+  }
+  .generalPanel-userData {
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+  }
+  .up{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+  }
+
+  .up h2,
+  .generalPanel-container h2{
+    background-color: rgb(128,128,128,0.7);
+  }
+  
+  .generalPanel-data {
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(225, 239, 245);
+  }
+  
+  .generalPanel-section {
+    margin-top: 20px;
+  }
+
+ .generalPanel-userData img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 2px;
+ }
+  
+  /* Agrega los estilos CSS adicionales que desees para el componente PanelControl */
+  

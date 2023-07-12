@@ -1,0 +1,362 @@
+.productControl-container {
+    margin-top: 20px;
+  }
+
+  .generalPanel-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .generalPanel-button-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .productControl-button {
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .productControl-button:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .productControl-container h2 {
+    text-align: center;
+    background-color: rgba(201, 193, 193, 0.5);
+    text-shadow: 2px 2px white;
+  }
+  
+  .productControl-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+    background-color: rgba(201, 193, 193, 0.7);
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .productControl-table th,
+  .productControl-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+  .productControl-table-link {
+    margin-right: 5px;
+    color: black;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .productControl-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .productControl-table button {
+    border-radius: 15px;
+    margin: 1px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(248, 241, 241);
+  }
+  
+  .productControl-table-block {
+    background-color: red;
+  }
+  
+  .productControl-table-unblock {
+    background-color: green;
+  }
+  
+  .productControl-table button:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .productControl-table-link:hover {
+    background-color: rgb(195, 219, 219);
+  }
+
+  .productControl-form {
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(201, 193, 193, 0.7);
+    padding: 20px;
+    padding-right: 80px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 0 auto; /* Agregado para centrar horizontalmente */
+  }
+  
+  
+  .productControl-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .productControl-form input,
+  .productControl-form textarea {
+    width: 140%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .productControl-form-category label {
+    margin-left: 34px;
+  }
+  
+  .productControl-form-category span:first-of-type {
+    margin-left: 34px;
+    font-weight: bold;
+  }
+  
+  .productControl-category-select__toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .productControl-category-select__toggle span:first-child {
+    margin-right: 8px;
+  }
+  
+  .productControl-category-select__dropdown button {
+    background-color: aqua;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  
+  .productControl-category-select__dropdown button:hover {
+    background-color: rgb(79, 14, 233);
+    color: bisque;
+  }
+  
+  .productControl-category-select__dropdown {
+    margin-top: 8px;
+  }
+  
+  .productControl-category-select__option {
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .productControl-category-select__option.selected {
+    background-color: #e91414;
+    color: beige;
+  }
+  
+  .productControl-selected-categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  
+  .productControl-selected-category {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background-color: #f2f2f2;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
+  .productControl-selected-category span {
+    margin-right: 4px;
+  }
+  
+  .productControl-remove-category {
+    margin-left: 4px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .productControl-remove-category:hover {
+    text-decoration: underline;
+  }
+  
+  .productControl-file {
+    margin-top: 10px;
+  }
+  
+  .productControl-file label {
+    margin-left: 84px;
+  }
+  
+  .productControl-file input {
+    width: 74%;
+    margin-top: 5px;
+    margin-left: 80px;
+    background-color: #f58383;
+  }
+  
+  .productControl-create {
+    background-color: aqua;
+    border: 1px white solid;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  
+  .productControl-create:hover {
+    background-color: rgb(241, 66, 212);
+    border: 1px white solid;
+    color: white;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .productControl-table-categorytd {
+      width: 300px;
+    }
+  
+  }
+
+  @media screen and (max-width: 1050px) {
+    .productControl-table-categorytd {
+      width: 200px;
+    }
+  
+  }
+
+  @media screen and (max-width: 920px) {
+    .productControl-table-categorytd {
+      display: none;
+    }
+  
+  }
+
+  @media screen and (max-width: 700px) {
+    .productControl-table-accionestd {
+        width: 50px;
+    }
+
+    .productControl-form {
+        width: 300px;
+       
+      }
+      
+    .productControl-file label {
+          margin-left: 54px;
+        }
+        
+    .productControl-file input {
+          margin-left: 54px;
+        }
+  
+  }
+
+  @media screen and (max-width: 510px) {
+    .productControl-table {
+        font-size: 12px;
+    }
+
+    .productControl-form {
+        width: 200px;
+       
+      }
+
+    .productControl-form input,
+    .productControl-form textarea {
+        width: 120%;
+      }
+
+    .productControl-form-category label {
+        margin-left: 10px;
+      }
+      
+    .productControl-form-category span:first-of-type {
+        margin-left: 10px;
+    }
+      
+    .productControl-file label {
+          margin-left: 10px;
+        }
+        
+    .productControl-file input {
+          width: 110%;
+          margin-left: 10px;
+        }
+  
+  }
+
+  @media screen and (max-width: 450px) {
+    .productControl-table-descriptiontd {
+        display: none;
+    }
+  
+  }
+
+
+  @media screen and (max-width: 350px) {
+
+    .productControl-form {
+        padding: 4px;
+        padding-right: 0px;
+      }
+      
+    .productControl-form input,
+    .productControl-form textarea {
+        width: 90%;
+      }
+      
+    .productControl-form-category label {
+        margin-left: 0px;
+      }
+      
+    .productControl-form-category span:first-of-type {
+        margin-left: 0px;
+        font-size: 12px;
+      }
+
+    .productControl-category-select__dropdown button {
+        font-size: 12px;
+        text-align: left;
+        margin: 4px;
+    }
+      
+        
+    .productControl-file input {
+          width: 80%;
+        }
+    
+    .productControl-create {
+        margin-bottom: 5px;
+        margin-left: 2%;
+        }
+  
+  }
+
+
+
+  
+
+

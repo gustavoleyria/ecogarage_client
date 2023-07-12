@@ -1,0 +1,107 @@
+/* UserControl.css */
+
+.userControl {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(128,128,128,0.6);
+    margin-top: 10px;
+  }
+  
+  .userControl h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .userControl-form {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(0,255,255,0.6);
+  }
+  
+  .userControl input {
+    width: 95%;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+
+  .userControl-button{
+    margin-left: 120px;
+  }
+  
+  .userControl button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .userControl {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .userControl h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .userControl input,
+    .userControl button {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    .userControl-button{
+      margin-left: 0px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .userControl {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+    }
+  
+    .userControl h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+  
+    .userControl input,
+    .userControl button {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  }
+
+  @media (max-width: 420px) {
+  
+    .userControl h2 {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .userControl h3{
+        font-size: 20px;
+    }
+  
+    .userControl input,
+    .userControl button {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  }

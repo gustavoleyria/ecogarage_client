@@ -1,0 +1,27 @@
+.historyNavContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .historyNavButton {
+    background-color: #1a94e6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px palevioletred solid;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .historyNavButton:hover {
+    background-color: #e0e0e0;
+    color: black;
+  }
+  
+  .historyNavButton:focus {
+    outline: none;
+  }
+  
